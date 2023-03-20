@@ -5,10 +5,15 @@ import Logo from '../assets/logo.svg'
 const Header = () => {
   return <header className='py-8'>
     <div className='container mx-auto'>
-      {/*logo*/}
-      <a href='#'>
-        <img src={Logo} />
-      </a>
+      <div className='flex justify-between items-center'>
+        {/*logo*/}
+        <a href='#'>
+          <img src={Logo} />
+        </a>
+        {/*bouttons*/}
+        <button className='btn btn-sm'>Hire me</button>
+      </div>
+
     </div>
   </header>
 };
